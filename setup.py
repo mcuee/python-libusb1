@@ -34,9 +34,9 @@ if os.getenv('I_KNOW_HOW_TO_RELEASE_PYTHON_LIBUSB1') != '1' and any(
     sys.exit(1)
 
 CURRENT_WINDOWS_7Z_SHA256 = (
-    'ce633f98c3ce6aec82be3c0d273ab8bdd160642174faba4eb47d8dcd92af7f05'
+    '964a38152ca9a104cd00ec8d2f0617b89cd814f9b635e29763c68563d951521d'
 )
-CURRENT_DLL_VERSION = '1.0.28.11946'
+CURRENT_DLL_VERSION = '1.0.29.11953'
 
 cmdclass = versioneer.get_cmdclass()
 class upload(Command):
