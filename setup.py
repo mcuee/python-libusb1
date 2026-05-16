@@ -123,7 +123,7 @@ class update_libusb(Command):
             archive_sha256 = hashlib.sha256(archive_file.read()).hexdigest()
         if archive_sha256 != CURRENT_WINDOWS_7Z_SHA256:
             raise ValueError(
-                'Windows release sha56 mismatch: %r fetched with a sha256 of %r' % (
+                'Windows release sha256 mismatch: %r fetched with a sha256 of %r' % (
                     url,
                     archive_sha256,
                 )
