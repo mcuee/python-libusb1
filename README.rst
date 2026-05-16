@@ -594,6 +594,15 @@ Check in-dll version when creating Windows wheels. Should hopefully version mixu
 
 Fix ``AttributeError`` in ``USBContext.setPollFDNotifiers`` introduced in 3.3.0 .
 
+3.4.0
+-----
+
+Resolve a python 3.14 deprecation warning about packed ctypes structs.
+
+Bundle libusb1 dll 1.0.29 in Windows wheels.
+
+Fix a licence inconsistency: the old pypi classifier was refering to the LGPL2+ instead of the LGPL2.1+ .
+
 .. _CPython: http://www.python.org/
 
 .. _pypy: http://pypy.org/
